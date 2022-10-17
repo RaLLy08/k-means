@@ -170,7 +170,7 @@ const generateCentroidsTraces = (centroids) => {
             y: [y],
             mode: 'markers',
             type: 'scatter',
-            name: `Cenroid ${i}`,
+            name: `Centroid ${i}`,
             marker: { size: 20, color: 'black', opacity: 0.5 }
         }
     })
